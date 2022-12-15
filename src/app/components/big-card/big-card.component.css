@@ -1,0 +1,50 @@
+.container__big-card{
+  border: solid black 2px;
+  height: 350px;
+  width: 100;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.big-card__t_d{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 80px;
+}
+
+.big-card__title{
+  font-size: 35px;
+  font-family: 'Montserrat';
+}
+
+.big-card__description{
+  font-size: 15px;
+  color:grey;
+  border: red solid 1px;
+}
+
+
+#img__redonda-right{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+#img__redonda-center{
+  height: 150px;
+  width:150px;
+  border-radius: 50%;
+  margin-top: -150px;
+}
+
+.big-card__photo{
+  border: blue solid 5px;
+  margin-top: 240px;
+}
+
+.big-card__photo{
+  border: blue solid 5px;
+}
