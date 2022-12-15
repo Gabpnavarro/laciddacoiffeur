@@ -1,0 +1,28 @@
+.container__menu-title{
+  color: black;
+
+}
+
+.container__menu-title > h2{
+  margin-top: 10px;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Corinthia', cursive;
+  color:purple;
+}
+
+.container__menu-title > h6{
+  margin-top: -30px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  text-indent: 125px;
+  font-weight: lighter;
+}
+
+.container__menu-title > hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
