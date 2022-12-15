@@ -1,50 +1,53 @@
 .container__big-card{
-  border: solid black 2px;
-  height: 350px;
+  height: 330px;
   width: 100;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .big-card__t_d{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 80px;
+  margin-right: 20px;
+
 }
 
-.big-card__title{
-  font-size: 35px;
-  font-family: 'Montserrat';
+.big-card__title > h1{
+  font-size: 3.25rem;
+  width: 300px;
+  font-family: 'Corinthia', cursive;
 }
 
-.big-card__description{
-  font-size: 15px;
-  color:grey;
-  border: red solid 1px;
+.big-card__description > p{
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  width: 250px;
+  color:rgb(87, 86, 86);
+  font-family: 'Dancing Script', cursive;
 }
 
+.big-card__photo{
+  display: flex;
+  flex-direction: column;
+}
 
 #img__redonda-right{
-  height: 300px;
-  width: 300px;
+  height: 20rem;
+  width: 20rem;
   border-radius: 50%;
+}
+
+.big-card__photo2{
+  display: flex;
+  justify-content: center;
 }
 
 #img__redonda-center{
-  height: 150px;
-  width:150px;
+  height: 9.375rem;
+  width: 9.375rem;
   border-radius: 50%;
-  margin-top: -150px;
-}
-
-.big-card__photo{
-  border: blue solid 5px;
-  margin-top: 240px;
-}
-
-.big-card__photo{
-  border: blue solid 5px;
+  margin-top: -6.25rem;
 }
