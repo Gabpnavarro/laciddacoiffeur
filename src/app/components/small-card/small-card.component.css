@@ -1,3 +1,24 @@
+@media screen and (max-width: 600px) {
+  .container__title{
+    margin-bottom: 2rem;;
+  }
+
+  .container__description1 {
+    height: 5rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container__description2 {
+    height: 5rem;
+    width: 22rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
 .container__small-card{
   margin-top: 2.5rem;
   display: flex;
@@ -16,27 +37,23 @@
 }
 
 .container__description{
-  width: 28rem;
+  font-size: 1.2rem;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  display: flex;
-}
-.container__description > p{
-  font-size: 1.2rem;
-  text-align: center;
   color:rgb(87, 86, 86);
   font-family: 'Dancing Script', cursive;
+  word-wrap: break-word;
+}
+.container__description1 > p{
+  width: 28rem;
   margin-bottom: 2rem;
 }
 
 .container__description2 > p{
   width: 36rem;
-  font-size: 1.2rem;
-  text-align: center;
-  color:rgb(87, 86, 86);
-  font-family: 'Dancing Script', cursive;
 }
 
 

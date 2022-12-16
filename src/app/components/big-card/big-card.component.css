@@ -1,6 +1,30 @@
+@media screen and (max-width: 650px) {
+  .container__big-card  {
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+  }
+  .big-card__title{
+    margin-bottom: 2rem;
+  }
+
+  #img__redonda-right{
+    margin-top: 2rem;
+  }
+
+  #img__redonda-center{
+    display: none;
+  }
+
+  .big-card__t_d{
+    text-align: center;
+    align-items: center;
+  }
+}
+
 .container__big-card{
-  height: 330px;
-  width: 100;
+  margin-top: 2rem;
+  height: 20.625rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,20 +35,19 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-right: 20px;
-
+  margin-right: 1.25rem;
 }
 
 .big-card__title > h1{
   font-size: 3.25rem;
-  width: 300px;
+  width: 18.75rem;
   font-family: 'Corinthia', cursive;
 }
 
 .big-card__description > p{
   margin-top: 1rem;
   font-size: 1.2rem;
-  width: 250px;
+  width: 15.625rem;
   color:rgb(87, 86, 86);
   font-family: 'Dancing Script', cursive;
 }
