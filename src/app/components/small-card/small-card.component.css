@@ -16,7 +16,7 @@
 }
 
 .container__description{
-  width: 30rem;
+  width: 28rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -28,11 +28,11 @@
   text-align: center;
   color:rgb(87, 86, 86);
   font-family: 'Dancing Script', cursive;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .container__description2 > p{
-  width: 37rem;
+  width: 36rem;
   font-size: 1.2rem;
   text-align: center;
   color:rgb(87, 86, 86);

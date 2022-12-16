@@ -2,11 +2,59 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
   width: 100%;
   height: 80px;
 }
 
-.container__menu-title > img{
-  width: 100;
+.container__menu-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+}
+.container__menu-logo > img{
+  width: 160px;
   height: 50px;
+}
+.container__menu-social{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.container__menu-social_insta{
+  margin-right: 0.25rem;
+}
+
+.container__menu-social_insta > a > img{
+  height: 2rem;
+  width: 2rem;
+}
+.container__menu-social_whats{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.container__menu-social_whats > a > img{
+  height: 2rem;
+  width: 2rem;
+}
+
+.container__menu-social_whats{
+  margin-right: -1rem;
+}
+
+.container__menu-social_face{
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.container__menu-social_face > a > img{
+  width: 2.5rem;
 }
