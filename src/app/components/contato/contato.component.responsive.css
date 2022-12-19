@@ -1,0 +1,11 @@
+@media screen and (max-width: 650px) {
+  .container__contato{
+    margin-top: 3rem;
+    width: 375px;
+    height: 180px;
+  }
+
+  .container__numero > h1{
+    font-size: 3.25rem;
+}
+}

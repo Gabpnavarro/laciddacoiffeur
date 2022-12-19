@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
   .container__oferecemos{
     margin-top: 3rem;
+    height: 24rem;
   }
 
   .container__photo-center,
@@ -8,7 +9,7 @@
   .container__photo-left
   {
     width: 8rem;
-    height: 15rem;
+    height: 14rem;
   }
 
   .container__photo-center > img{
@@ -26,11 +27,19 @@
   .container__photo-left > a,
   .container__photo-center > a,
   .container__photo-right > a{
-  font-size: 1.30rem;
+  font-size: 1.75rem;
   }
 
   .container__oferecemos{
     background-position-y: 5%;
     background-size: 375px;
+  }
+
+  .container__servicos > p{
+    font-size: 1.75rem;
+  }
+
+  .container__servicos > button{
+    font-size: 1.75rem;
   }
 }

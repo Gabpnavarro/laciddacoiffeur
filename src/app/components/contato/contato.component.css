@@ -1,0 +1,28 @@
+.container__contato{
+  margin-top: 3rem;
+  width: 100%;
+  background-image:url("/assets/img/Oferta.png");
+  background-repeat: no-repeat;
+  background-position-y: 5%;
+  background-position-x: center;
+  background-size: 450px;
+}
+
+.container__numero{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0.9;
+  font-family: 'Corinthia', cursive;
+  font-size: 2rem;
+}
+
+.container__numero > h1{
+  color:brown;
+}
+
+.container__numero > p{
+  color:brown;
+}
+
