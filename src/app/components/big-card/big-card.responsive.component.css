@@ -1,0 +1,21 @@
+@media screen and (max-width: 650px) {
+  .container__big-card  {
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    height: 41.625rem;
+  }
+  .big-card__title{
+    margin-bottom: 2rem;
+  }
+
+  #img__redonda-right{
+    margin-top: 2rem;
+  }
+
+  .big-card__t_d{
+    text-align: center;
+    align-items: center;
+    margin-right: 0rem;
+  }
+}
