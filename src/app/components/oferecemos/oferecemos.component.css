@@ -7,10 +7,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .container__title{
+  opacity: 0.9;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -22,15 +23,17 @@
   font-family: 'Corinthia', cursive;
 }
 
-.container__photos{
-  background-image: url("/assets/img/Oferta.png");
-  background-size: 100%;
+.container__oferecemos{
+  width: 100%;
+  background-image:url("/assets/img/Oferta.png");
   background-repeat: no-repeat;
-  background-position-y: 0%;
+  background-position-y: 5%;
+  background-position-x: center;
 }
-.container__photos{
 
-  height: 16rem;
+.container__photos{
+  opacity: 0.9;
+  height: 18rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -40,7 +43,6 @@
 .container__photo-right,
 .container__photo-left
 {
-  opacity: 0.9;
   display: flex;
   align-items: center;
   justify-content: center;
