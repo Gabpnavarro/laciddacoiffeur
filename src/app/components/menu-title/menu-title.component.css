@@ -11,7 +11,7 @@
   justify-content: center;
   width: 30rem;
 }
-.container__menu-logo > img{
+.container__menu-logo > a> img {
   width: 160px;
   height: 50px;
 }

@@ -1,5 +1,6 @@
 .container__menu-bar{
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .container__menu-bar>ul
@@ -8,12 +9,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 .container__menu-bar>ul>li
 {
-  margin-right: 1.5rem;
+  margin-right: 1.20rem;
   list-style: none;
 
 }

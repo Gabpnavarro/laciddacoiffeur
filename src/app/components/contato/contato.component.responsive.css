@@ -1,11 +1,28 @@
 @media screen and (max-width: 650px) {
   .container__contato{
-    margin-top: 3rem;
     width: 375px;
     height: 180px;
   }
 
   .container__numero > h1{
     font-size: 3.25rem;
-}
+  }
+
+  .container__edificio{
+    margin-top: -4rem;
+  }
+
+  .container__localizacao>iframe{
+    height: 15em;
+    width: 20rem;
+  }
+
+  .container__edificio>img{
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .container__contato{
+    background-size: 350px;
+  }
 }

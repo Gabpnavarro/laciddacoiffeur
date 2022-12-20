@@ -1,13 +1,19 @@
 .container__contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   opacity: 0.9;
   margin-top: 5rem;
-  height: 8rem;
-  width: 100%;
+  height: 35rem;
+}
+
+.container__contato{
   background-image:url("/assets/img/Contato.png");
   background-repeat: no-repeat;
   background-position-y: 5%;
   background-position-x: center;
-  background-size: 450px;
+  background-size: 380px;
 }
 
 .container__numero{
@@ -38,6 +44,19 @@
 }
 
 .container__localizacao>iframe{
-
 border:rgba(0, 0, 0, 1)
+}
+
+.container__edificio{
+  margin-top: -5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__edificio>img{
+  border-radius:50%;
+  height: 10rem;
+  width: 10rem;
+  border: 3px solid white;
 }
