@@ -1,7 +1,9 @@
 .container__contato{
-  margin-top: 3rem;
+  opacity: 0.9;
+  margin-top: 5rem;
+  height: 8rem;
   width: 100%;
-  background-image:url("/assets/img/Oferta.png");
+  background-image:url("/assets/img/Contato.png");
   background-repeat: no-repeat;
   background-position-y: 5%;
   background-position-x: center;
@@ -22,7 +24,20 @@
   color:brown;
 }
 
-.container__numero > p{
+.container__numero > a{
   color:brown;
+  text-decoration: none;
 }
 
+.container__localizacao{
+  margin-top: 2rem;
+  display:flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.container__localizacao>iframe{
+
+border:rgba(0, 0, 0, 1)
+}

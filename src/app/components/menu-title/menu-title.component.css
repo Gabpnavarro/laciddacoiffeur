@@ -41,16 +41,12 @@
   width: 2rem;
 }
 
-.container__menu-social_whats{
-  margin-right: -1rem;
-}
 
 .container__menu-social_face{
   display: flex;
   justify-content: center;
   flex-direction: center;
   align-items: center;
-  margin-left: 1rem;
 }
 
 .container__menu-social_face > a > img{
