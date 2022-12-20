@@ -10,6 +10,7 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { OferecemosComponent } from './components/oferecemos/oferecemos.component';
 import { ContatoComponent } from './components/contato/contato.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContatoComponent } from './components/contato/contato.component';
     BigCardComponent,
     HomeComponent,
     OferecemosComponent,
-    ContatoComponent
+    ContatoComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
