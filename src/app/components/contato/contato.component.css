@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   opacity: 0.9;
-  margin-top: 5rem;
+  margin-top: 3rem;
   height: 35rem;
 }
 
@@ -41,10 +41,11 @@
   align-items: center;
   align-content: center;
   flex-direction: column;
+
 }
 
 .container__localizacao>iframe{
-border:rgba(0, 0, 0, 1)
+  border:rgb(255, 255, 255);
 }
 
 .container__edificio{
@@ -52,11 +53,14 @@ border:rgba(0, 0, 0, 1)
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius:50%;
+
 }
 
 .container__edificio>img{
   border-radius:50%;
   height: 10rem;
   width: 10rem;
-  border: 3px solid white;
+  border: solid white 4px;
+  box-shadow: rgba(50, 50, 50, 0.77) 9px 7px 5px;
 }

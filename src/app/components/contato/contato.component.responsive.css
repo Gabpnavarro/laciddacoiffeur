@@ -1,7 +1,8 @@
 @media screen and (max-width: 650px) {
   .container__contato{
-    width: 375px;
-    height: 180px;
+    height: 460px;
+    display: column;
+    justify-content: center;
   }
 
   .container__numero > h1{
@@ -23,6 +24,6 @@
   }
 
   .container__contato{
-    background-size: 350px;
+    background-size: 300px;
   }
 }
