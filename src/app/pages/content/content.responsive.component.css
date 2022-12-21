@@ -1,0 +1,16 @@
+@media screen and (max-width: 650px)
+{
+  .container__photo-center > img ,
+  .container__photo-right > img ,
+  .container__photo-left > img{
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+}
+
+.container__title>h1
+{
+  font-size: 4rem;
+}
+
+}
