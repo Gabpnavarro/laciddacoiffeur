@@ -11,6 +11,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { OferecemosComponent } from './components/oferecemos/oferecemos.component';
 import { ContatoComponent } from './components/contato/contato.component';
 import { ContentComponent } from './pages/content/content.component';
+import { MenuBarServiceComponent } from './components/menu-bar-service/menu-bar-service.component';
+import { ServicePhotosComponent } from './components/service-photos/service-photos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ContentComponent } from './pages/content/content.component';
     HomeComponent,
     OferecemosComponent,
     ContatoComponent,
-    ContentComponent
+    ContentComponent,
+    MenuBarServiceComponent,
+    ServicePhotosComponent
   ],
   imports: [
     BrowserModule,
