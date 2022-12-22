@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-service-photos',
@@ -10,6 +10,20 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class ServicePhotosComponent implements OnInit {
+  @Input()
+  photoLeft:string= ""
+  @Input()
+  photoCenter:string= ""
+  @Input()
+  photoRight:string= ""
+
+  @Input()
+  titlePhotoLeft:string=""
+  @Input()
+  titlePhotoCenter:string=""
+  @Input()
+  titlePhotoRight:string=""
+
 
   constructor() { }
 

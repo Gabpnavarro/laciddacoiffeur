@@ -1,10 +1,57 @@
 @media screen and (max-width: 650px)
 {
+  .container__photos
+  {
+    height: 14rem
+  }
+
+
+  .container__photo-center > img ,
+  .container__photo-right > img ,
+  .container__photo-left > img
+  {
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .container__photo-center,
+  .container__photo-right,
+  .container__photo-left
+  {
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 400px)
+{
+
+  .container__photos
+  {
+    flex-direction: column;
+    height: 60rem;
+  }
+
   .container__photo-center > img ,
   .container__photo-right > img ,
   .container__photo-left > img{
   border-radius: 50%;
-  height: 7rem;
-  width: 7rem;
+  height: 12rem;
+  width: 12rem;
+  }
+
+  .container__photo-center
+{
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
+
+
+  .container__photo-center,
+  .container__photo-right,
+  .container__photo-left
+  {
+    margin-top: 2rem;
+    height: 17rem;
+  }
 }
