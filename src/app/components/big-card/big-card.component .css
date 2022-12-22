@@ -33,11 +33,12 @@
   flex-direction: column;
 }
 
-#img__redonda-right{
+.big-card__photo > img {
   height: 20rem;
   width: 20rem;
   border-radius: 50%;
 }
+
 
 
 
