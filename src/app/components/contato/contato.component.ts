@@ -12,7 +12,7 @@ export class ContatoComponent implements OnInit {
 
   @Input()
   cardTitle:string = ""
- @Input()
+  @Input()
   cardNumber:string = ""
 
 

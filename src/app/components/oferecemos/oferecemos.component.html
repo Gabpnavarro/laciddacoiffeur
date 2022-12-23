@@ -1,7 +1,7 @@
 <div id="servicos" class="container__oferecemos">
 
   <div class="container__title">
-    <h1>O que oferecemos?</h1>
+    <h1>{{title}}</h1>
   </div>
 
   <div class="container__oferta">
@@ -10,23 +10,23 @@
   <div class="container__photos">
 
     <div class="container__photo-left">
-      <img src="https://scontent.fnat1-1.fna.fbcdn.net/v/t1.6435-9/47375845_782355795429209_4751771590876725248_n.jpg?stp=c0.79.721.721a_dst-jpg_s851x315&_nc_cat=109&ccb=1-7&_nc_sid=da31f3&_nc_ohc=j8vkeG1iPVwAX9dH60P&_nc_ht=scontent.fnat1-1.fna&oh=00_AfAzBP995vNTBHq5dqIWQSn9USq6csRaz0IWO9W_-VcLoA&oe=63C9FCE9">
-      <a>Maquiagem</a>
+      <img src="{{photoLeft}}">
+      <a [routerLink]="['servicos']">{{titlePhotoLeft}}</a>
     </div>
 
     <div class="container__photo-center">
-      <img src="https://scontent.fnat1-1.fna.fbcdn.net/v/t39.30808-6/280196450_1710802662584513_3318464769571694175_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=104&ccb=1-7&_nc_sid=9e2e56&efg=eyJpIjoidCJ9&_nc_ohc=mwGHa-B1RdQAX_Ydc02&_nc_ht=scontent.fnat1-1.fna&oh=00_AfBKQoVFzXLq7NSgZruRefDnfHQ2z19-I-0cWPIIztRhsg&oe=63A3C6CA" alt="">
-      <a>Cabelos</a>
+      <img src="{{photoCenter}}">
+      <a>{{titlePhotoCenter}}</a>
     </div>
 
     <div class="container__photo-right">
-      <img src="https://scontent.fnat1-1.fna.fbcdn.net/v/t39.30808-6/319630227_608671291028864_6023105320994770389_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=0debeb&_nc_ohc=WxpMfDONN1gAX-DdLMN&_nc_ht=scontent.fnat1-1.fna&oh=00_AfBrhIKnLjDLf2RRG1ndQ4XQiY3SzLDWnJpD0Ay89hC9eg&oe=63A14368">
-      <a>Depilação</a>
+      <img src="{{photoRight}}">
+      <a>{{titlePhotoRight}}</a>
     </div>
   </div>
 
   <div class="container__servicos">
-      <p>Conheça nossa linha completa de serviços</p>
+      <p>{{description}}</p>
       <button [routerLink]="['servicos']" class= "container__btn">Ver todos os serviços</button>
   </div>
 </div>

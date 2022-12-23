@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+  import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-oferecemos',
@@ -9,6 +9,27 @@ import { Component, OnInit } from '@angular/core';
 ]
 })
 export class OferecemosComponent implements OnInit {
+
+  @Input()
+  title:string=""
+
+  @Input()
+  photoLeft:string=""
+  @Input()
+  titlePhotoLeft:string=""
+
+  @Input()
+  photoCenter:string=""
+  @Input()
+  titlePhotoCenter:string=""
+
+  @Input()
+  photoRight:string=""
+  @Input()
+  titlePhotoRight:string=""
+
+  @Input()
+  description:string=""
 
   constructor() { }
 
