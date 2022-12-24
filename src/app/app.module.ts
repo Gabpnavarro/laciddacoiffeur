@@ -5,28 +5,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
-import { SmallCardComponent } from './components/small-card/small-card.component';
-import { BigCardComponent } from './components/big-card/big-card.component';
 import { HomeComponent } from './pages/home/home.component';
-import { OferecemosComponent } from './components/oferecemos/oferecemos.component';
 import { ContatoComponent } from './components/contato/contato.component';
 import { ContentComponent } from './pages/content/content.component';
-import { MenuBarServiceComponent } from './components/menu-bar-service/menu-bar-service.component';
 import { ServicePhotosComponent } from './components/service-photos/service-photos.component';
+import { SalaoDeBelezaComponent } from './components/salao-de-beleza/salao-de-beleza.component';
+import { BemVindoComponent } from './components/bem-vindo/bem-vindo.component';
+import { ServicosComponent } from './components/servicos/servicos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuBarComponent,
     MenuTitleComponent,
-    SmallCardComponent,
-    BigCardComponent,
     HomeComponent,
-    OferecemosComponent,
     ContatoComponent,
     ContentComponent,
-    MenuBarServiceComponent,
-    ServicePhotosComponent
+    ServicePhotosComponent,
+    SalaoDeBelezaComponent,
+    BemVindoComponent,
+    ServicosComponent
   ],
   imports: [
     BrowserModule,

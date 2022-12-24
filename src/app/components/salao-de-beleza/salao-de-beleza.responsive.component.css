@@ -5,8 +5,10 @@
     margin-bottom: 2rem;
     height: 41.625rem;
   }
+
   .big-card__title{
     margin-bottom: 2rem;
+    font-size: 3rem;
   }
 
   #img__redonda-right{

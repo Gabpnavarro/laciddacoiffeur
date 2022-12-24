@@ -22,8 +22,8 @@
 
 .big-card__description > p{
   margin-top: 1rem;
-  font-size: 1.2rem;
-  width: 15.625rem;
+  font-size: 1.25rem;
+  width: 16.9rem;
   color:rgb(87, 86, 86);
   font-family: 'Dancing Script', cursive;
 }
@@ -38,8 +38,3 @@
   width: 20rem;
   border-radius: 50%;
 }
-
-
-
-
-

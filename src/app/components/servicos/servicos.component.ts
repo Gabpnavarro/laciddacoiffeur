@@ -1,14 +1,15 @@
-  import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-oferecemos',
-  templateUrl: './oferecemos.component.html',
-  styleUrls: [
-  './oferecemos.component.css',
-  './oferecemos.responsive.component.css'
-]
+  selector: 'app-servicos',
+  templateUrl: './servicos.component.html',
+  styleUrls:
+  [
+    './servicos.component.css',
+    './servicos.responsive.component.css'
+  ]
 })
-export class OferecemosComponent implements OnInit {
+export class ServicosComponent implements OnInit {
 
   @Input()
   title:string=""
@@ -17,7 +18,6 @@ export class OferecemosComponent implements OnInit {
   photoLeft:string=""
   @Input()
   titlePhotoLeft:string=""
-
   @Input()
   photoCenter:string=""
   @Input()

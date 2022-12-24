@@ -9,6 +9,10 @@
     font-size: 3.25rem;
   }
 
+  .container__numero > a{
+    font-size: 1.75rem;
+  }
+
   .container__edificio{
     margin-top: -4rem;
   }

@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-position-y: 5%;
   background-position-x: center;
-  background-size: 380px;
+  background-size: 300px;
 }
 
 .container__numero{
@@ -28,6 +28,7 @@
 
 .container__numero > h1{
   color:brown;
+  font-size: 3.25rem;
 }
 
 .container__numero > a{

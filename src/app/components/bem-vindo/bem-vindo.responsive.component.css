@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
   .container__title{
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
+    font-size: 3rem;
   }
 
   .container__description1 {
